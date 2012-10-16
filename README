@@ -1,34 +1,55 @@
-NAME
-    Acme::MetaSyntactic::morning_musume - The Mumusu theme
+Acme::MetaSyntactic::moUrsneirngC_omnutsruimbeu(t3e)d PeArclmeD:o:cMuemteanStyanttiaocntic::morning_musume(3)
 
-DESCRIPTION
-    The names (english transcription) of the Japanese Pop Idols Morning Musume
 
-    The list is provided by the module Acme::MorningMusume from KENTARO
-    Two themes are available: ACTIVE (default) and GRADUATE.
 
-INSTALL
+[1mNAME[0m
+       Acme::MetaSyntactic::morning_musume -- The theme of Morning Musume
 
-To install this module, run the following commands:
+[1mDESCRIPTION[0m
+       The names (english transcription) of the Japanese Pop Idols Morning
+       Musume
 
-    perl Build.PL
-    ./Build
-    ./Build test
-    ./Build install
+       The list is provided by the module Acme::MorningMusume from KENTARO Two
+       themes are available: active (default), graduate
 
-Alternatively, to install with ExtUtils::MakeMaker, you can use the following commands:
+[1mINSTALL[0m
+       To install this module, run the following commands:
 
-    perl Makefile.PL
-    make
-    make test
-    make install
+           perl Build.PL
+           ./Build
+           ./Build test
+           ./Build install
 
-COPYRIGHT
+       Alternatively, to install with ExtUtils::MakeMaker, you can use the
+       following commands:
 
-Copyright (C) 2012 Laurent Boivin (elbeho)
- 
-LICENCE
+           perl Makefile.PL
+           make
+           make test
+           make install
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+[1mCONTRIBUTOR[0m
+       Laurent Boivin (elbeho)
 
+[1mCHANGES[0m
+       ·   2012-10-17 - v1.001
+
+           Fix documentation (pod and readme)
+
+       ·   2012-10-13 - v1.000
+
+           First attempt... don't be rude.
+
+[1mSEE ALSO[0m
+       Acme::MorningMusume, Acme::MetaSyntactic, Acme::MetaSyntactic::List.
+
+[1mCOPYRIGHT[0m
+       Copyright (C) 2012 Laurent Boivin (elbeho)
+
+[1mLICENSE[0m
+       This program is free software; you can redistribute it and/or modify it
+       under the same terms as Perl itself.
+
+
+
+perl v5.14.2                      2012-10A-c1m7e::MetaSyntactic::morning_musume(3)
