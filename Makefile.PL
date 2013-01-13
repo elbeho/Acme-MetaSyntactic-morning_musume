@@ -13,6 +13,7 @@ WriteMakefile(
     },
     PREREQ_PM  => {
         'Acme::MetaSyntactic' => 1.007,
+        'Acme::MorningMusume' => 0.13,
     },
     MIN_PERL_VERSION => 5.006002,
     META_MERGE => {
