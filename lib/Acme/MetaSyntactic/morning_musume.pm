@@ -23,13 +23,13 @@ __PACKAGE__->init(
 
 =head1 NAME
 
-Acme::MetaSyntactic::morning_musume -- The theme of Morning Musume
+Acme::MetaSyntactic::morning_musume - The theme of Morning Musume
 
 =head1 DESCRIPTION
 
-The names (english transcription) of the Japanese Pop Idols Morning Musume
+The names (English transcription) of the Japanese Pop Idols Morning Musume
 
-The list is provided by the module Acme::MorningMusume from KENTARO
+The list is provided by the module L<Acme::MorningMusume> from KENTARO.
 
 Two themes are available: active (default), graduate
 
