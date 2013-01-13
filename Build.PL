@@ -5,7 +5,7 @@ use Module::Build;
 my $build = Module::Build->new(
     module_name    => 'Acme::MetaSyntactic::morning_musume',
     dist_author    => 'Laurent Boivin (elbeho) <elbeho@cpan.org>',
-	dist_abstract  => 'Thme Morning Musume for AMS. Data from Acme::MorningMusume',
+    dist_abstract  => 'Theme Morning Musume for AMS. Data from Acme::MorningMusume',
     license        => 'perl',
     build_requires => {
         'Test::More'          => '0.94',
@@ -13,7 +13,7 @@ my $build = Module::Build->new(
     },
     requires => {
         'Acme::MetaSyntactic' => '1.007',
-		'Acme::MorningMusume' => '0.13',
+        'Acme::MorningMusume' => '0.13',
     },
     meta_merge => {
         resources => {
