@@ -29,6 +29,10 @@ CONTRIBUTOR
     Laurent Boivin (elbeho)
 
 CHANGES
+    *   2013-06-16 - v1.002
+
+        Fix missing dependancies
+
     *   2012-10-17 - v1.001
 
         Fix documentation (pod and readme)

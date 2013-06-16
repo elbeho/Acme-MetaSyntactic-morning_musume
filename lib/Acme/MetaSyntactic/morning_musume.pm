@@ -3,7 +3,7 @@ use strict;
 use Acme::MetaSyntactic::MultiList;
 use Acme::MorningMusume;
 our @ISA     = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 
 	my $musume = Acme::MorningMusume->new;
 	#my @all      = map { $_->name_en } $musume->members;
@@ -59,6 +59,10 @@ Laurent Boivin (elbeho)
 
 =item *
 
+2013-06-16 - v1.002
+
+Fix missing dependancies
+
 2012-10-17 - v1.001
 
 Fix documentation (pod and readme)
@@ -78,7 +82,7 @@ L<Acme::MetaSyntactic>, L<Acme::MetaSyntactic::List>.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2012 Laurent Boivin (elbeho)
+Copyright (C) 2012-2013 Laurent Boivin (elbeho)
 
 =head1 LICENSE
 
